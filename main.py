@@ -1,7 +1,16 @@
-import requests
 
 
-def main():
-    print(requests.get("https://google.com"))
+def summary(a, b):
+    return a + b
 
-main()
+
+def main(a, b, param):
+    if param == "+":
+        return summary(a, b)
+
+result = main(1, 3, '+')
+print(result)
+
+
+
+
