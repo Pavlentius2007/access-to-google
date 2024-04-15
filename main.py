@@ -1,4 +1,6 @@
 
+def minus(a, b):
+    return a - b
 
 def summary(a, b):
     return a + b
